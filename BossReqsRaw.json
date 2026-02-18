@@ -1,0 +1,938 @@
+[
+  {
+    "name": "Barrows",
+    "location": "Barrows- Mort'ton",
+    "requirements": {
+      "quests": ["Priest in Peril"],
+      "stats": {
+        "attack": 50,
+        "strength": 50,
+        "defense": 50,
+        "magic": 50,
+        "ranged": 50,
+        "prayer": 43
+      }
+    },
+    "notes": "Barrows drains your prayer points, be ready"
+  },
+  {
+    "name": "Scurrius",
+    "location": "Varock sewers",
+    "requirements": {
+      "quests": [],
+      "stats": {
+        "attack": 50,
+        "strength": 50,
+        "defense": 50,
+        "magic": 50,
+        "ranged": 50,
+        "prayer": 43
+      }
+    },
+    "notes": "rat baine wepons will speed up kills"
+  },
+  {
+    "name": "Giant mole",
+    "location": "Falador mole hole",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 60,
+        "strength": 60,
+        "defense": 60,
+        "magic": 60,
+        "ranged": 60,
+        "prayer": 43
+      }
+    },
+    "notes": "Recommended to have making friends with my arm complete for permanent light, also falador Hard diary for location of mole and noted drops."
+  },
+  {
+    "name": "Deranged archaeologist",
+    "location": "Fossil island",
+    "requirements": {
+      "quests": ["Bone Voyage"],
+      "stats": {
+        "attack": 0,
+        "strength": 0,
+        "defense": 0,
+        "magic": 50,
+        "ranged": 0,
+        "prayer": 40
+      }
+    },
+    "notes": "93 hitpoints minimizes risk of instant death but is just precautionary"
+  },
+  {
+    "name": "Dagannoth kings",
+    "location": "Waterbirth island dungeon",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 70,
+        "strength": 70,
+        "defense": 60,
+        "magic": 75,
+        "ranged": 70,
+        "prayer": 45
+      }
+    },
+    "notes": "getting to the kings is complex, its highly recomended to watch a guide of what to bring and how to get there"
+  },
+  {
+    "name": "Sarachnis",
+    "location": "Forthos Dungeon",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 65,
+        "strength": 65,
+        "defense": 65,
+        "magic": 60,
+        "ranged": 70,
+        "prayer": 43
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "Perilous moons",
+    "location": "Cam Torum",
+    "requirements": {
+      "quests": ["Perilous moons"],
+      "stats": {
+        "attack": 70,
+        "strength": 70,
+        "defense": 70,
+        "magic": 0,
+        "ranged": 0,
+        "prayer": 34
+      }
+    },
+    "notes": "higher stats for cooking, fishing, hunter and herblore help your supply gathering"
+  },
+  {
+    "name": "Kalphite queen",
+    "location": "Kalphite lair",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 75,
+        "strength": 75,
+        "defense": 70,
+        "magic": 0,
+        "ranged": 75,
+        "prayer": 70
+      }
+    },
+    "notes": "Bring 2 ropes unless desert hard diary completed and already placed the ropes, creatures on the way can poison."
+  },
+  {
+    "name": "Kree'arra",
+    "location": "God wars dungeon",
+    "requirements": {
+      "quests": [
+        "Death Plateau and Troll stronghold up until you fight Dad or Ghommals hilt tele instead"
+      ],
+      "stats": {
+        "attack": 0,
+        "strength": 0,
+        "defense": 80,
+        "magic": 92,
+        "ranged": 80,
+        "prayer": 44
+      }
+    },
+    "notes": "Crossbow and Mithril grapple needed, also 40 armadyl kill count needed in the dungeon to unlock boss or ecumenical key to skip it."
+  },
+  {
+    "name": "Commander Zilyana",
+    "location": "God wars dungeon",
+    "requirements": {
+      "quests": [
+        "Death Plateau and Troll stronghold up until you fight Dad or Ghommals hilt tele instead"
+      ],
+      "stats": {
+        "attack": 100,
+        "strength": 0,
+        "defense": 80,
+        "magic": 0,
+        "ranged": 80,
+        "prayer": 44
+      }
+    },
+    "notes": "One rope needed to enter dungeon, eccumenical key skips kill count requirement"
+  },
+  {
+    "name": "General Graardor",
+    "location": "God wars dungeon",
+    "requirements": {
+      "quests": [
+        "Death Plateau and Troll stronghold up until you fight Dad or Ghommals hilt tele instead"
+      ],
+      "stats": {
+        "attack": 80,
+        "strength": 80,
+        "defense": 70,
+        "magic": 75,
+        "ranged": 80,
+        "prayer": 44
+      }
+    },
+    "notes": "One rope needed to enter dungeon, eccumenical key skips kill count requirement"
+  },
+  {
+    "name": "K'ril Tsutsaroth",
+    "location": "God wars dungeon",
+    "requirements": {
+      "quests": [
+        "Death Plateau and Troll stronghold up until you fight Dad or Ghommals hilt tele instead"
+      ],
+      "stats": {
+        "attack": 85,
+        "strength": 85,
+        "defense": 90,
+        "magic": 85,
+        "ranged": 85,
+        "prayer": 70
+      }
+    },
+    "notes": "One rope needed to enter dungeon, eccumenical key skips kill count requirement"
+  },
+  {
+    "name": "The Hueycoatl",
+    "location": "Atop the Darkfrost",
+    "requirements": {
+      "quests": ["Children of the sun"],
+      "stats": {
+        "attack": 60,
+        "strength": 60,
+        "defense": 60,
+        "magic": 0,
+        "ranged": 0,
+        "prayer": 43
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "Corporeal Beast",
+    "location": "Wilderness lair, use games necklace",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 94,
+        "strength": 94,
+        "defense": 94,
+        "magic": 0,
+        "ranged": 90,
+        "prayer": 74
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "Nex",
+    "location": "God wars dungeon",
+    "requirements": {
+      "quests": ["The Frozen door miniquest"],
+      "stats": {
+        "attack": 90,
+        "strength": 90,
+        "defense": 80,
+        "magic": 76,
+        "ranged": 90,
+        "prayer": 74
+      }
+    },
+    "notes": "One rope needed to enter dungeon, eccumenical key skips kill count requirement"
+  },
+  {
+    "name": "Chaos fanatic",
+    "location": "Wilderness, west of lava maze",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 0,
+        "strength": 0,
+        "defense": 70,
+        "magic": 0,
+        "ranged": 75,
+        "prayer": 37
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "Crazy archaeologist",
+    "location": "Wilderness ruins west ",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 50,
+        "strength": 0,
+        "defense": 0,
+        "magic": 75,
+        "ranged": 0,
+        "prayer": 40
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "Scorpia",
+    "location": "Beneath the scorpion pit- NE wilderness",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 0,
+        "strength": 0,
+        "defense": 0,
+        "magic": 78,
+        "ranged": 0,
+        "prayer": 40
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "King black dragon",
+    "location": "KBD lair wilderness",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 75,
+        "strength": 75,
+        "defense": 0,
+        "magic": 0,
+        "ranged": 75,
+        "prayer": 74
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "Chaos elemental",
+    "location": "West of rogues castle -wilderness",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 80,
+        "strength": 80,
+        "defense": 70,
+        "magic": 0,
+        "ranged": 75,
+        "prayer": 37
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "Calvar'ion",
+    "location": "Skeletal tomb wilderness",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 70,
+        "strength": 70,
+        "defense": 70,
+        "magic": 0,
+        "ranged": 0,
+        "prayer": 70
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "Vet'ion",
+    "location": "Vet'ions rest -wilderness",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 70,
+        "strength": 70,
+        "defense": 70,
+        "magic": 0,
+        "ranged": 0,
+        "prayer": 70
+      }
+    },
+    "notes": "multi area"
+  },
+  {
+    "name": "Spindel",
+    "location": "web chasm- wilderness",
+    "requirements": {
+      "quests": ["wilderness medium diary needed"],
+      "stats": {
+        "attack": 70,
+        "strength": 70,
+        "defense": 70,
+        "magic": 0,
+        "ranged": 75,
+        "prayer": 0
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "Venenatis",
+    "location": "Silk chasm- wilderness",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 75,
+        "strength": 80,
+        "defense": 70,
+        "magic": 94,
+        "ranged": 75,
+        "prayer": 0
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "Artio",
+    "location": "Hunters end -wilderness",
+    "requirements": {
+      "quests": ["wilderness medium diary needed"],
+      "stats": {
+        "attack": 90,
+        "strength": 0,
+        "defense": 70,
+        "magic": 92,
+        "ranged": 75,
+        "prayer": 44
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "Callisto",
+    "location": "Callisto's den- wilderness",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 90,
+        "strength": 0,
+        "defense": 70,
+        "magic": 79,
+        "ranged": 75,
+        "prayer": 44
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "Obor",
+    "location": "Edgeville dungeon",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 50,
+        "strength": 50,
+        "defense": 50,
+        "magic": 50,
+        "ranged": 50,
+        "prayer": 43
+      }
+    },
+    "notes": "Need giants key for first time"
+  },
+  {
+    "name": "Bryophyta",
+    "location": "Varock sewers",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 50,
+        "strength": 50,
+        "defense": 50,
+        "magic": 50,
+        "ranged": 50,
+        "prayer": 43
+      }
+    },
+    "notes": "Need mossy key for first time"
+  },
+  {
+    "name": "Amoxliatl",
+    "location": "Ruins of tapoyauik",
+    "requirements": {
+      "quests": ["The heart of darkness"],
+      "stats": {
+        "attack": 60,
+        "strength": 60,
+        "defense": 60,
+        "magic": 0,
+        "ranged": 0,
+        "prayer": 43
+      }
+    },
+    "notes": "boss is the quest"
+  },
+  {
+    "name": "Royal titans",
+    "location": "Asgarnia ice dungeon",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 70,
+        "strength": 70,
+        "defense": 70,
+        "magic": 75,
+        "ranged": 70,
+        "prayer": 43
+      }
+    },
+    "notes": "Duo boss, can be solo'd"
+  },
+  {
+    "name": "Doom of mokhaiotl",
+    "location": "",
+    "requirements": {
+      "quests": ["The final dawn"],
+      "stats": {
+        "attack": 0,
+        "strength": 0,
+        "defense": 70,
+        "magic": 0,
+        "ranged": 90,
+        "prayer": 43
+      }
+    },
+    "notes": "lots of extra quests will help, check wiki"
+  },
+  {
+    "name": "Zulrah",
+    "location": "Port tyras",
+    "requirements": {
+      "quests": ["Regicide"],
+      "stats": {
+        "attack": 0,
+        "strength": 0,
+        "defense": 70,
+        "magic": 75,
+        "ranged": 80,
+        "prayer": 45
+      }
+    },
+    "notes": "Uses Venom"
+  },
+  {
+    "name": "Vorkath",
+    "location": "3rd dock Rellekka",
+    "requirements": {
+      "quests": ["Dragon slayer 2"],
+      "stats": {
+        "attack": 80,
+        "strength": 85,
+        "defense": 80,
+        "magic": 39,
+        "ranged": 80,
+        "prayer": 70
+      }
+    },
+    "notes": "dragon fire and venom, woox walk for faster kills"
+  },
+  {
+    "name": "Phantom muspah",
+    "location": "Ghorrock dungeon",
+    "requirements": {
+      "quests": ["Secrets of the north"],
+      "stats": {
+        "attack": 0,
+        "strength": 0,
+        "defense": 75,
+        "magic": 85,
+        "ranged": 85,
+        "prayer": 77
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "The nightmare",
+    "location": "Sisterhood sanctuary",
+    "requirements": {
+      "quests": ["Priest in Peril"],
+      "stats": {
+        "attack": 85,
+        "strength": 85,
+        "defense": 85,
+        "magic": 85,
+        "ranged": 0,
+        "prayer": 70
+      }
+    },
+    "notes": "can be group or solo"
+  },
+  {
+    "name": "Phosanis nightmare",
+    "location": "Sisterhood sanctuary",
+    "requirements": {
+      "quests": ["Priest in Peril"],
+      "stats": {
+        "attack": 95,
+        "strength": 95,
+        "defense": 85,
+        "magic": 95,
+        "ranged": 0,
+        "prayer": 70
+      }
+    },
+    "notes": "solo only"
+  },
+  {
+    "name": "Yama",
+    "location": "Chasm of fire",
+    "requirements": {
+      "quests": ["A kingdom divided"],
+      "stats": {
+        "attack": 80,
+        "strength": 80,
+        "defense": 75,
+        "magic": 82,
+        "ranged": 0,
+        "prayer": 70
+      }
+    },
+    "notes": "solo or duo, can be made harder with contracts"
+  },
+  {
+    "name": "Duke sucellus",
+    "location": "Ghorrock dungeon",
+    "requirements": {
+      "quests": ["Desert treasure 2"],
+      "stats": {
+        "attack": 75,
+        "strength": 75,
+        "defense": 70,
+        "magic": 0,
+        "ranged": 0,
+        "prayer": 70
+      }
+    },
+    "notes": "requires prep, good to have high mining and herblore"
+  },
+  {
+    "name": "Leviathan",
+    "location": "The Scar",
+    "requirements": {
+      "quests": ["Desert treasure 2"],
+      "stats": {
+        "attack": 0,
+        "strength": 0,
+        "defense": 70,
+        "magic": 52,
+        "ranged": 75,
+        "prayer": 44
+      }
+    },
+    "notes": "shadow spells needed"
+  },
+  {
+    "name": "The whisperer",
+    "location": "Lassar undercity",
+    "requirements": {
+      "quests": ["Desert treasure 2"],
+      "stats": {
+        "attack": 0,
+        "strength": 0,
+        "defense": 70,
+        "magic": 75,
+        "ranged": 0,
+        "prayer": 44
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "Vardorvis",
+    "location": "Stranglewood ritual site",
+    "requirements": {
+      "quests": ["Desert treasure 2"],
+      "stats": {
+        "attack": 80,
+        "strength": 85,
+        "defense": 80,
+        "magic": 0,
+        "ranged": 0,
+        "prayer": 44
+      }
+    },
+    "notes": ""
+  },
+  {
+    "name": "Mimic",
+    "location": "Watsons house",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 80,
+        "strength": 80,
+        "defense": 70,
+        "magic": 80,
+        "ranged": 90,
+        "prayer": 74
+      }
+    },
+    "notes": "From clue caskets"
+  },
+  {
+    "name": "Hespori",
+    "location": "Farming guild",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 60,
+        "strength": 60,
+        "defense": 60,
+        "magic": 0,
+        "ranged": 0,
+        "prayer": 44
+      }
+    },
+    "notes": "Needs 65 farming and to plant and wait for tree to grow"
+  },
+  {
+    "name": "Skotizo",
+    "location": "Catacombs of Kourend",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 75,
+        "strength": 75,
+        "defense": 75,
+        "magic": 75,
+        "ranged": 0,
+        "prayer": 44
+      }
+    },
+    "notes": "Need dark totem, pieces dropped by monsters in catacombs"
+  },
+  {
+    "name": "Grotesque guardians",
+    "location": "Slayer tower top floor",
+    "requirements": {
+      "quests": ["Priest in Peril"],
+      "stats": {
+        "attack": 75,
+        "strength": 75,
+        "defense": 70,
+        "magic": 0,
+        "ranged": 75,
+        "prayer": 70
+      }
+    },
+    "notes": "Need 75 slayer, rock hammer and a brittle key"
+  },
+  {
+    "name": "Abyssal sire",
+    "location": "abyssal nexus",
+    "requirements": {
+      "quests": ["Enter the abyss"],
+      "stats": {
+        "attack": 80,
+        "strength": 80,
+        "defense": 80,
+        "magic": 92,
+        "ranged": 80,
+        "prayer": 70
+      }
+    },
+    "notes": "85 slayer needed, demonbane wepons "
+  },
+  {
+    "name": "Kraken",
+    "location": "kraken cove",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 0,
+        "strength": 0,
+        "defense": 70,
+        "magic": 75,
+        "ranged": 0,
+        "prayer": 44
+      }
+    },
+    "notes": "87 slayer, must be on task"
+  },
+  {
+    "name": "Cerberus",
+    "location": "Cerberus lair",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 85,
+        "strength": 85,
+        "defense": 85,
+        "magic": 76,
+        "ranged": 75,
+        "prayer": 70
+      }
+    },
+    "notes": "91 slayer needed, demonbane wepons good"
+  },
+  {
+    "name": "Araxxor",
+    "location": "Morytania spider cave",
+    "requirements": {
+      "quests": ["Priest in Peril"],
+      "stats": {
+        "attack": 85,
+        "strength": 85,
+        "defense": 70,
+        "magic": 0,
+        "ranged": 0,
+        "prayer": 70
+      }
+    },
+    "notes": "On task only,uses venom, 92 slayer needed"
+  },
+  {
+    "name": "Thermonuclear smoke devil ",
+    "location": "Smoke devil dungeon",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 80,
+        "strength": 80,
+        "defense": 80,
+        "magic": 75,
+        "ranged": 70,
+        "prayer": 70
+      }
+    },
+    "notes": "93 slayer, on task only"
+  },
+  {
+    "name": "Alchemical hydra",
+    "location": "Karuulum slayer dungeon",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 90,
+        "strength": 90,
+        "defense": 90,
+        "magic": 70,
+        "ranged": 70,
+        "prayer": 43
+      }
+    },
+    "notes": "95 slayer, hydra task needed"
+  },
+  {
+    "name": "Gauntlet ",
+    "location": "The gauntlet prifdinis",
+    "requirements": {
+      "quests": ["Song of the elves"],
+      "stats": {
+        "attack": 0,
+        "strength": 0,
+        "defense": 80,
+        "magic": 80,
+        "ranged": 85,
+        "prayer": 77
+      }
+    },
+    "notes": "You can melee but most people dont, if you can do the gauntlet with these stats you can do Corrupted gauntlet "
+  },
+  {
+    "name": "TzTok-Jad",
+    "location": "Tzaar fight caves",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 0,
+        "strength": 0,
+        "defense": 70,
+        "magic": 0,
+        "ranged": 75,
+        "prayer": 60
+      }
+    },
+    "notes": "Wouldnt recommend melee or magic generally, magic can be whatever level but higher is better for magic defence"
+  },
+  {
+    "name": "TzKal-Zuk",
+    "location": "Tzaar fight caves",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 0,
+        "strength": 0,
+        "defense": 90,
+        "magic": 94,
+        "ranged": 90,
+        "prayer": 80
+      }
+    },
+    "notes": "honestly its the inferno, look up guides lol"
+  },
+  {
+    "name": "The colleseum ",
+    "location": "Fortis colleseum",
+    "requirements": {
+      "quests": ["Children of the sun"],
+      "stats": {
+        "attack": 95,
+        "strength": 95,
+        "defense": 90,
+        "magic": 94,
+        "ranged": 90,
+        "prayer": 77
+      }
+    },
+    "notes": "Also very hard just read a guide"
+  },
+  {
+    "name": "Chambers of Xeric",
+    "location": "Mout quidamortem ",
+    "requirements": {
+      "quests": [""],
+      "stats": {
+        "attack": 80,
+        "strength": 80,
+        "defense": 70,
+        "magic": 80,
+        "ranged": 80,
+        "prayer": 77
+      }
+    },
+    "notes": "Other stats are needed check guide"
+  },
+  {
+    "name": "Theatre of blood",
+    "location": "Ver sinhaza",
+    "requirements": {
+      "quests": ["Priest in Peril"],
+      "stats": {
+        "attack": 90,
+        "strength": 90,
+        "defense": 80,
+        "magic": 94,
+        "ranged": 90,
+        "prayer": 77
+      }
+    },
+    "notes": "A taste of hope is pretty much needed for tele and night at the theatre is the quest where u do it, entry mode lower requirements"
+  },
+  {
+    "name": "Tombs of amascut",
+    "location": "Jaltevas pyramid",
+    "requirements": {
+      "quests": ["Beneath cursed sands"],
+      "stats": {
+        "attack": 70,
+        "strength": 70,
+        "defense": 70,
+        "magic": 70,
+        "ranged": 70,
+        "prayer": 77
+      }
+    },
+    "notes": ""
+  }
+]
