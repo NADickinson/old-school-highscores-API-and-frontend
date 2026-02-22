@@ -55,7 +55,7 @@ public class Player
 
         for (int i = collectionsIndexTemp + 1; i < playerData.Activities.Count; i++)
         {
-            if (playerData.Activities[i].Name.StartsWith("A"))
+            if (playerData.Activities[i].Name?.StartsWith("A") == true)
             {
                 collectionsIndex = i;
                 break;
@@ -65,18 +65,21 @@ public class Player
         for (int i = collectionsIndex; i < playerData.Activities.Count; i++)
         {
             var activity = playerData.Activities[i];
-            Bosses[activity.Name] = new BossInfo
+            if (activity.Name != null)
             {
+                Bosses[activity.Name] = new BossInfo
+                {
 
-                Rank = activity.Rank,
-                Score = activity.Score
+                    Rank = activity.Rank,
+                    Score = activity.Score
 
-            };
+                };
+            }
         }
 
         foreach (var activity in playerData.Activities)
         {
-            if (activity.Name.StartsWith("Clue"))
+            if (activity.Name != null && activity.Name.StartsWith("Clue"))
             {
                 Clues[activity.Name] = new ClueInfo
                 {

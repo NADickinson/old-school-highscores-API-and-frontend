@@ -35,7 +35,7 @@ app.MapGet("/player/{name}", async (string name) =>
     Player currentPlayer = new Player(name, playerData);
 
     string jsonText = File.ReadAllText("BossReqsRaw.json");
-    List<BossReqs> bossList = JsonConvert.DeserializeObject<List<BossReqs>>(jsonText);
+    List<BossReqs> bossList = JsonConvert.DeserializeObject<List<BossReqs>>(jsonText) ?? new List<BossReqs>();
 
     if (bossList == null)
     {
