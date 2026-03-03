@@ -57,12 +57,61 @@ app.MapGet("/player/{name}", async (string name) =>
         }
     }
 
-    return Results.Ok(new PlayerResponse
-    {
-        Player = currentPlayer,
-        AllBosses = bossList,
-        RecommendedBosses = recommended
-    });
+
+    var playerDto = new PlayerDto(
+
+        currentPlayer.UserName,
+         currentPlayer.Skills
+        .Select(skill => new SkillDto(
+            skill.Key,
+            skill.Value.Level,
+            skill.Value.XP
+        ))
+        .ToList()
+    );
+
+    var allBossDtos = bossList.Select(boss => new BossDto(
+    boss.Name,
+    boss.Location,
+    new BossRequirementsDto(
+        boss.Requirements.Quests,
+        new BossStatsDto(
+            boss.Requirements.Stats.Attack,
+            boss.Requirements.Stats.Strength,
+            boss.Requirements.Stats.Defense,
+            boss.Requirements.Stats.Magic,
+            boss.Requirements.Stats.Ranged,
+            boss.Requirements.Stats.Prayer
+        )
+    ),
+    boss.Notes
+)).ToList();
+
+    var recommendedBossDtos = recommended.Select(boss => new BossDto(
+        boss.Name,
+        boss.Location,
+        new BossRequirementsDto(
+            boss.Requirements.Quests,
+            new BossStatsDto(
+                boss.Requirements.Stats.Attack,
+                boss.Requirements.Stats.Strength,
+                boss.Requirements.Stats.Defense,
+                boss.Requirements.Stats.Magic,
+                boss.Requirements.Stats.Ranged,
+                boss.Requirements.Stats.Prayer
+            )
+        ),
+        boss.Notes
+    )).ToList();
+
+    return Results.Ok(
+        new PlayerBossResponseDto(
+           playerDto,
+           allBossDtos,
+           recommendedBossDtos
+        )
+
+    );
 });
 
 app.Run();

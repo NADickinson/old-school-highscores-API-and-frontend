@@ -4,7 +4,6 @@ public record PlayerBossResponseDto(
     List<BossDto> RecommendedBosses
 );
 
-
 public record PlayerDto
 (
     string Username,
