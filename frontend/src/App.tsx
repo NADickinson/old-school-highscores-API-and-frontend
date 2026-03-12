@@ -1,3 +1,9 @@
+import { BackgroundContainer } from '../components/BackgroundContainer';
+
 export default function App() {
-  return <div>Hello, OSRS API!</div>;
+  return (
+    <BackgroundContainer>
+      <div>{'hi!'}</div>
+    </BackgroundContainer>
+  );
 }
