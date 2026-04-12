@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import type { ApiResponse } from '../types/api';
 
 export const PlayerSearchBar = () => {
   const inputRef = useRef<HTMLInputElement>(null);
@@ -11,17 +12,18 @@ export const PlayerSearchBar = () => {
         ref={inputRef}
       />
       <button
+        className="bg-white text-black px-4 py-2 rounded-lg shadow hover:cursor-pointer"
         onClick={async () => {
           if (inputRef.current?.value && inputRef.current.value.trim()) {
             const res = await fetch(
               `http://localhost:5200/player/${inputRef.current.value}`,
             );
-            const data = await res.json();
+            const data: ApiResponse = await res.json();
             console.log(data);
           }
         }}
       >
-        {'hello'}
+        {'Search'}
       </button>
     </div>
   );
