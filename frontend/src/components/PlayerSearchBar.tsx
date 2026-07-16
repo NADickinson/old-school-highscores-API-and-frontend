@@ -1,7 +1,11 @@
 import { useRef } from 'react';
-import type { ApiResponse } from '../types/api';
+import type { ApiResponse } from '../../types/api';
 
-export const PlayerSearchBar = () => {
+export const PlayerSearchBar = ({
+  setPlayerData,
+}: {
+  setPlayerData: (playerData: ApiResponse) => void;
+}) => {
   const inputRef = useRef<HTMLInputElement>(null);
 
   return (
@@ -19,6 +23,7 @@ export const PlayerSearchBar = () => {
               `http://localhost:5200/player/${inputRef.current.value}`,
             );
             const data: ApiResponse = await res.json();
+            setPlayerData(data);
             console.log(data);
           }
         }}

@@ -35,7 +35,7 @@
     "name": "Giant mole",
     "location": "Falador mole hole",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 60,
         "strength": 60,
@@ -67,7 +67,7 @@
     "name": "Dagannoth kings",
     "location": "Waterbirth island dungeon",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 70,
         "strength": 70,
@@ -83,7 +83,7 @@
     "name": "Sarachnis",
     "location": "Forthos Dungeon",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 65,
         "strength": 65,
@@ -115,7 +115,7 @@
     "name": "Kalphite queen",
     "location": "Kalphite lair",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 75,
         "strength": 75,
@@ -219,7 +219,7 @@
     "name": "Corporeal Beast",
     "location": "Wilderness lair, use games necklace",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 94,
         "strength": 94,
@@ -251,7 +251,7 @@
     "name": "Chaos fanatic",
     "location": "Wilderness, west of lava maze",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 0,
         "strength": 0,
@@ -267,7 +267,7 @@
     "name": "Crazy archaeologist",
     "location": "Wilderness ruins west ",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 50,
         "strength": 0,
@@ -283,7 +283,7 @@
     "name": "Scorpia",
     "location": "Beneath the scorpion pit- NE wilderness",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 0,
         "strength": 0,
@@ -299,7 +299,7 @@
     "name": "King black dragon",
     "location": "KBD lair wilderness",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 75,
         "strength": 75,
@@ -315,7 +315,7 @@
     "name": "Chaos elemental",
     "location": "West of rogues castle -wilderness",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 80,
         "strength": 80,
@@ -331,7 +331,7 @@
     "name": "Calvar'ion",
     "location": "Skeletal tomb wilderness",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 70,
         "strength": 70,
@@ -347,7 +347,7 @@
     "name": "Vet'ion",
     "location": "Vet'ions rest -wilderness",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 70,
         "strength": 70,
@@ -379,7 +379,7 @@
     "name": "Venenatis",
     "location": "Silk chasm- wilderness",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 75,
         "strength": 80,
@@ -411,7 +411,7 @@
     "name": "Callisto",
     "location": "Callisto's den- wilderness",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 90,
         "strength": 0,
@@ -427,7 +427,7 @@
     "name": "Obor",
     "location": "Edgeville dungeon",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 50,
         "strength": 50,
@@ -443,7 +443,7 @@
     "name": "Bryophyta",
     "location": "Varock sewers",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 50,
         "strength": 50,
@@ -475,7 +475,7 @@
     "name": "Royal titans",
     "location": "Asgarnia ice dungeon",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 70,
         "strength": 70,
@@ -667,7 +667,7 @@
     "name": "Mimic",
     "location": "Watsons house",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 80,
         "strength": 80,
@@ -683,7 +683,7 @@
     "name": "Hespori",
     "location": "Farming guild",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 60,
         "strength": 60,
@@ -699,7 +699,7 @@
     "name": "Skotizo",
     "location": "Catacombs of Kourend",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 75,
         "strength": 75,
@@ -747,7 +747,7 @@
     "name": "Kraken",
     "location": "kraken cove",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 0,
         "strength": 0,
@@ -763,7 +763,7 @@
     "name": "Cerberus",
     "location": "Cerberus lair",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 85,
         "strength": 85,
@@ -795,7 +795,7 @@
     "name": "Thermonuclear smoke devil ",
     "location": "Smoke devil dungeon",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 80,
         "strength": 80,
@@ -811,7 +811,7 @@
     "name": "Alchemical hydra",
     "location": "Karuulum slayer dungeon",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 90,
         "strength": 90,
@@ -843,7 +843,7 @@
     "name": "TzTok-Jad",
     "location": "Tzaar fight caves",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 0,
         "strength": 0,
@@ -859,7 +859,7 @@
     "name": "TzKal-Zuk",
     "location": "Tzaar fight caves",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 0,
         "strength": 0,
@@ -891,7 +891,7 @@
     "name": "Chambers of Xeric",
     "location": "Mout quidamortem ",
     "requirements": {
-      "quests": [""],
+      "quests": [],
       "stats": {
         "attack": 80,
         "strength": 80,
