@@ -4,8 +4,8 @@ export const PlayerTable = ({ playerData }: { playerData: ApiResponse }) => {
   return (
     <details>
       <summary>{'Players Stats'}</summary>
-      <div className="shadow-[0_10px_30px_rgba(0,0,0,0.9)] rounded-lg bg-white overflow-hidden m-6">
-        <table className="[&_th]:px-4 text-center [&_th]:bg-[#00836A] ">
+      <div className="shadow-[0_10px_30px_rgba(0,0,0,0.9)] rounded-lg bg-white overflow-hidden m-14">
+        <table className="[&_th]:px-4  [&_th]:bg-[#00836A] ">
           <thead>
             <tr>
               <th>{'Skill'}</th>

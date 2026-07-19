@@ -10,7 +10,7 @@ export default function App() {
 
   return (
     <BackgroundContainer>
-      <HeaderBar></HeaderBar>
+      <HeaderBar />
       <PlayerSearchBar setPlayerData={setPlayerData} />
       {playerData && <PlayerStatsCollapsable playerData={playerData} />}
     </BackgroundContainer>
